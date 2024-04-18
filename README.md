@@ -47,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### IMAGES 
 ![Screenshot 2024-04-18 063935](https://github.com/DHRUV-2902/CollabBro/assets/136738478/4d73d11d-a131-45b1-9906-fd4451098220)
-landing pAGE
+Landing page: 
 ![Screenshot 2024-04-18 064023](https://github.com/DHRUV-2902/CollabBro/assets/136738478/369b812a-7fce-4b66-b544-983b0ecc38dd)
 ![Screenshot 2024-04-18 064216](https://github.com/DHRUV-2902/CollabBro/assets/136738478/8ec3ea38-4dbb-4f99-be9a-c353b5ed2a62)
 ![Screenshot 2024-04-18 064131](https://github.com/DHRUV-2902/CollabBro/assets/136738478/49ad8dbf-f690-434d-a112-ca2e456cb65c)
