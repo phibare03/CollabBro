@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
-}
+  .form1 {
+      max-width: 320px;
+      width: 100%;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0px 0px 0px 4px rgba(52, 52, 53, 0.185);
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      font-family: cursive;
+    }
+    
+    .title1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #1a202c;
+    }
+    
+    .label1 {
+      color: rgb(0, 0, 0);
+      margin-bottom: 4px;
+    }
+    
+    .input1 {
+      padding: 10px;
+      margin-bottom: 20px;
+      width: 93%;
+      font-size: 1rem;
+      color: #4a5568;
+      outline: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    .input1:focus {
+      background-color: #fff;
+      box-shadow: 0 0 0 2px #cbd5e0;
+    }
+    
+    .input1:valid {
+      border: 1px solid green;
+    }
+    
+    .input1:invalid {
+      border: 1px solid rgba(14, 14, 14, 0.205);
+    }
+    
+    .submit1 {
+      background-color: #1a202c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+        
+        
+  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 2.5em;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+    width:30%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .form2:hover {
+    transform: translateX(-0.5em) translateY(-0.5em);
+    border: 1px solid #171717;
+    box-shadow: 10px 10px 0px #666666;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .heading2 {
+    color: black;
+    padding-bottom: 2em;
+    text-align: center;
+    font-weight: bold;
   }
-}
+  
+  .input2 {
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    outline: none;
+    padding: 0.7em;
+    transition: .4s ease-in-out;
+  }
+  
+  .input2:hover {
+    box-shadow: 6px 6px 0px #969696,
+               -3px -3px 10px #ffffff;
+  }
+  
+  .input2:focus {
+    background: #ffffff;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  }
+  
+  .form2 .btn2 {
+    margin-top: 2em;
+    align-self: center;
+    padding: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    transition: .4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+  }
+  
+  .form2 .btn2:hover {
+    box-shadow: 6px 6px 0px #969696,
+               -3px -3px 10px #ffffff;
+    transform: translateX(-0.5em) translateY(-0.5em);
+  }
+  
+  .form .btn:active {
+    transition: .2s;
+    transform: translateX(0em) translateY(0em);
+    box-shadow: none;
+  }
+
+  
+
+  /* new css for landing page  */
